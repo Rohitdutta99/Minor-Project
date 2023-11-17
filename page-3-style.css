@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+header{
+    margin: .8rem 5rem;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    overflow: hidden;
+}
+
+#logo{
+    height: 4rem;
+    margin-right: 1150px;
+    background-color: transparent;
+}
+
+#sign-up-button{
+    background-color: transparent;
+    color: black;
+    font-size: x-large;
+    border: none;
+}
+hr{
+    position: relative;
+    top: 6rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.second-div{
+    width: 40vw;
+    height: 80vh;
+    position: relative;
+    top: 15vh;
+    left: 30%;
+    overflow: hidden;
+}
+
+.second-div > p{
+    font-weight: 100;
+    font-size: 16px;
+    position: relative;
+    top: 19vh;
+    right: .50rem;
+    text-align: center;
+}
+
+.second-div > a>  button{
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 30vh;
+    left: 11vw;
+}
